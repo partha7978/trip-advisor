@@ -11,6 +11,7 @@ const App = () => {
             <CssBaseline />
             <Header />
             <Grid container spacing={3} style={{ width: "100%" }}>
+            {/*  https://mui.com/material-ui/react-grid/  visit there for the reference about Grid */}
                 <Grid item xs={12} md={4}>
                     <List />
                 </Grid>
