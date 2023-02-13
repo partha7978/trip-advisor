@@ -1,11 +1,13 @@
 import React from "react";
 // import AutoComplete from "@react/google-maps/api";
 import { AppBar, Toolbar, Typography, InputBase, Box } from "@mui/material";
+import SearchIcon from '@mui/icons-material/Search';
+// import useStyles from "./styles";
 
 export default function Header() {
     return (
         <AppBar position="static">
-            <Toolbar>
+            <Toolbar >
                 <Typography variant="h5" >
                     Trip Advisor
                 </Typography>
@@ -15,9 +17,9 @@ export default function Header() {
                     </Typography>
                 </Box>
                 {/* <AutoComplete> */}
-                    <div>
-                        <div>
-                            {/* <SearchIcon /> */}SR icon
+                    <div >
+                        <div >
+                            <SearchIcon />
                         </div>
                         <InputBase
                             placeholder="Search..."
