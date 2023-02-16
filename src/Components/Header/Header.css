@@ -19,3 +19,8 @@
     border-radius: 5px;
     margin-left: 1rem;
 }
+.logoParent > .logo {
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;    
+}

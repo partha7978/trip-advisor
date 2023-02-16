@@ -10,8 +10,8 @@ export default function Header() {
         <AppBar position="static">
             <Toolbar>
                 <div className="navBar">
-                    <div className="logo">
-                        <Typography variant="h5">Trip Advisor</Typography>
+                    <div className="logoParent">
+                        <p className="logo">Trip Advisor</p>
                     </div>
                     <div className="searchBar">
                         <p>Explore New Places</p>
