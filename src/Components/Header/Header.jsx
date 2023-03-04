@@ -7,8 +7,8 @@ import "./Header.css";
 
 export default function Header() {
     return (
-        <AppBar position="static">
-            <Toolbar>
+        <AppBar position="static" sx={{backgroundColor: '#7e57c2'}}>
+            <Toolbar sx={{height: '0px'}}>
                 <div className="navBar">
                     <div className="logoParent">
                         <p className="logo">Trip Advisor</p>
