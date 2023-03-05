@@ -4,6 +4,7 @@ import { AppBar, Toolbar, Typography, InputBase, Box } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 // import useStyles from "./styles";
 import "./Header.css";
+import TextField from '@mui/material/TextField';
 
 export default function Header() {
     return (
@@ -15,7 +16,7 @@ export default function Header() {
                     </div>
                     <div className="searchBar">
                         <p>Explore New Places</p>
-                        <input type="text" className="searchBox" placeholder="search here ... " />
+                        <TextField id="outlined-basic" label="Outlined" variant="outlined" size="small" color="warning" />
                     </div>
                 </div>
             </Toolbar>

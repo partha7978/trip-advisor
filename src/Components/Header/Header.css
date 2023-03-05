@@ -12,12 +12,8 @@
     border-radius: 5px;
     padding: 5px;
 }
-.searchBar > input {
-    border: none;
-    outline: none;
-    padding: 5px;
-    border-radius: 5px;
-    margin-left: 1rem;
+.searchBar p {
+    margin-right: 1rem;
 }
 .logoParent > .logo {
     font-size: 1.5rem;
