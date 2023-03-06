@@ -16,7 +16,7 @@ export default function Header() {
                     </div>
                     <div className="searchBar">
                         <p>Explore New Places</p>
-                        <TextField id="outlined-basic" label="Outlined" variant="outlined" size="small" color="warning" />
+                        <TextField id="outlined-basic" label="Search ..." variant="outlined" size="small" color="warning" />
                     </div>
                 </div>
             </Toolbar>
